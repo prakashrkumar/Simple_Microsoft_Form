@@ -1,0 +1,34 @@
+.insta_logo{
+    display: flex;
+    justify-content: center;
+}
+.form_container{
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   width: 400px; 
+   padding:20px 0 ;
+   
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form_group{
+    margin-bottom:15px ;
+    width: 60%;
+
+}
+.input{
+    width: 100%;
+    border: 1px solid #ccc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.button:hover{
+    background-color: #0056b3;
+}
